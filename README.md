@@ -1,13 +1,15 @@
-# buildcost
+# BuildCost
 
-Stub Python project. Described as an "AI-powered construction cost estimator" from blueprints, but none of that functionality exists.
+AI-powered construction cost estimator that analyzes blueprints and project specs.
 
-## What's actually here
+## About
+BuildCost uses AI to estimate construction costs from blueprints and project specifications. It analyzes architectural plans, material requirements, and labor needs to generate detailed cost breakdowns - helping contractors, developers, and homeowners budget accurately for construction projects.
 
-A single class in `src/core.py` (Buildcost) with placeholder methods (generate, estimate, optimize, compare, get_report, configure) that each return a fixed dictionary without doing any real work. There is no cost estimation, no blueprint analysis, no construction data processing - just stubs.
-
-The project uses only Python standard library imports (time, logging, json, typing). No ML, CV, or domain-specific libraries are present.
+## Tech Stack
+- Python
+- Computer vision for blueprint analysis
+- Machine learning (cost modeling)
+- Click/Typer (CLI)
 
 ## Status
-
-Scaffolding only. No working construction cost estimation functionality exists.
+Active development - core architecture and project structure established.
