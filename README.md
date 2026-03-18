@@ -1,43 +1,13 @@
 # buildcost
 
-**BuildCost — Construction Cost Estimator. AI-powered construction cost estimation from blueprints.**
+Stub Python project. Described as an "AI-powered construction cost estimator" from blueprints, but none of that functionality exists.
 
-![Build](https://img.shields.io/badge/build-passing-brightgreen) ![License](https://img.shields.io/badge/license-proprietary-red)
+## What's actually here
 
-## Install
-```bash
-pip install -e ".[dev]"
-```
+A single class in `src/core.py` (Buildcost) with placeholder methods (generate, estimate, optimize, compare, get_report, configure) that each return a fixed dictionary without doing any real work. There is no cost estimation, no blueprint analysis, no construction data processing - just stubs.
 
-## Quick Start
-```python
-from src.core import Buildcost
- instance = Buildcost()
-r = instance.generate(input="test")
-```
+The project uses only Python standard library imports (time, logging, json, typing). No ML, CV, or domain-specific libraries are present.
 
-## CLI
-```bash
-python -m src status
-python -m src run --input "data"
-```
+## Status
 
-## API
-| Method | Description |
-|--------|-------------|
-| `generate()` | Generate |
-| `create()` | Create |
-| `validate()` | Validate |
-| `preview()` | Preview |
-| `export()` | Export |
-| `get_templates()` | Get templates |
-| `get_stats()` | Get stats |
-| `reset()` | Reset |
-
-## Test
-```bash
-pytest tests/ -v
-```
-
-## License
-(c) 2026 Officethree Technologies. All Rights Reserved.
+Scaffolding only. No working construction cost estimation functionality exists.
