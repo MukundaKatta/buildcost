@@ -11,7 +11,7 @@ def main():
     print(f"Result: {result}")
 
     # Run multiple operations
-    ops = ["generate", "create", "validate]
+    ops = ["generate", "create", "validate"]
     for op in ops:
         r = getattr(instance, op)(source="example")
         print(f"  {op}: {"✓" if r.get("ok") else "✗"}")

@@ -6,9 +6,7 @@ used throughout the construction industry.
 
 from __future__ import annotations
 
-import numpy as np
-
-from buildcost.models import CostEstimate, CSIDivision, DivisionCost
+from buildcost.models import CostEstimate, CSIDivision
 
 
 # Industry benchmark percentages by CSI division for residential construction
