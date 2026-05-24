@@ -19,9 +19,9 @@ console = Console()
 
 
 @click.group()
-@click.version_option(version="0.1.0")
+@click.version_option(version="0.2.0")
 def cli():
-    """BuildCost - Construction Cost Estimator."""
+    """buildcost: residential construction cost estimator with CSI breakdown."""
     pass
 
 

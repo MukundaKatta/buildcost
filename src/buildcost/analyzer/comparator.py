@@ -6,8 +6,6 @@ for different project types, regions, and quality levels.
 
 from __future__ import annotations
 
-import numpy as np
-
 from buildcost.models import CostEstimate, ProjectType, Region
 
 

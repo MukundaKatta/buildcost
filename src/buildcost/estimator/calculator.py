@@ -1,12 +1,18 @@
 """Cost calculator computing material, labor, and equipment costs per trade.
 
 The calculator uses square footage, project type, number of stories, and region
-to generate a comprehensive cost estimate organized by CSI divisions.
+to generate a cost estimate organized by CSI MasterFormat divisions.
+
+Calibration:
+    - RESIDENTIAL is the calibrated path. Material quantity factors, labor
+      hours per square foot, and equipment days come from 2024-2025 US
+      single-family home construction averages.
+    - COMMERCIAL, INDUSTRIAL, INSTITUTIONAL, and RENOVATION factors are
+      retained for compatibility but are first-pass estimates only. Use
+      with caution outside of rough sanity-checking.
 """
 
 from __future__ import annotations
-
-import numpy as np
 
 from buildcost.models import (
     ContingencyItem,
